@@ -25,15 +25,25 @@ ul li  a{
     color: aqua;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    display: block;
+    font-size: 15pt;    
+}
+
+ul li a:hover{
+
+    color: red;
 }
 
 ul li{
 
     list-style-type: none;
+    margin-top: 12px;
 }
 ul{
 
     display: flex;
+    height: 100%;
     
 
 }
